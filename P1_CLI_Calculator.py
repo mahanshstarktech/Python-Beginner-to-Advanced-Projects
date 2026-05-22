@@ -26,3 +26,6 @@ except ZeroDivisionError as zde:
     print(zde)
     print("Can't divide by Zero")
 
+except Exception as ex:
+    print(ex)
+
